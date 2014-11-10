@@ -2,4 +2,8 @@ language: scala
 scala:
   - 2.10.4
 script:
+  - git status
+  - git branch -a
+  - git remote show origin
+  - git config --list
   - git rev-list --count HEAD -- schema.json
