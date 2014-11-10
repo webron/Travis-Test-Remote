@@ -2,6 +2,7 @@ language: scala
 scala:
   - 2.10.4
 script:
+  - history
   - git status
   - git branch -a
   - git remote show origin
